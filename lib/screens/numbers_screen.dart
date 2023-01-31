@@ -11,11 +11,11 @@ class NumbersScreen extends StatelessWidget {
      
       appBar: AppBar(
         
-        elevation: 0.0,
+        
         title: const Text(
           'Numbers',
           style: TextStyle(
-            fontSize: 25.0,
+            fontSize: 35.0,
           ),
         ),
       ),

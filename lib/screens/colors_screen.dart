@@ -9,11 +9,11 @@ class ColorsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        elevation: 0.0,
+        
         title: const Text(
-          'colors',
+          'Colors',
           style: TextStyle(
-            fontSize: 25.0,
+            fontSize: 35.0,
           ),
         ),
       ),

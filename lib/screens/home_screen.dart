@@ -15,7 +15,7 @@ class HomeScreen extends StatelessWidget {
         title: const Text(
           'Toku',
           style: TextStyle(
-            fontSize: 25.0,
+            fontSize: 35.0,
           ),
         ),
       ),
