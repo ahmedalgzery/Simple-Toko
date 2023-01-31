@@ -15,7 +15,7 @@ const List<ItemModel> familyMembers = [
       image: 'assets/images/family_members/family_daughter.png',
     ),
     ItemModel(
-      sound: 'grand father.wav',
+      sound: 'grandfather.wav',
       jpName: 'Ojīsan',
       enName: 'Grand Father',
       image: 'assets/images/family_members/family_grandfather.png',
@@ -29,7 +29,7 @@ const List<ItemModel> familyMembers = [
     ItemModel(
       sound: 'grand mother.wav',
       jpName: 'Sobo',
-      enName: 'grand mother',
+      enName: 'grandmother',
       image: 'assets/images/family_members/family_grandmother.png',
     ),
     ItemModel(
@@ -39,7 +39,7 @@ const List<ItemModel> familyMembers = [
       image: 'assets/images/family_members/family_older_brother.png',
     ),
     ItemModel(
-      sound: 'older sister.wav',
+      sound: 'oldersister.wav',
       jpName: 'Ane',
       enName: 'older sister',
       image: 'assets/images/family_members/family_older_sister.png',
@@ -51,13 +51,13 @@ const List<ItemModel> familyMembers = [
       image: 'assets/images/family_members/family_son.png',
     ),
     ItemModel(
-      sound: 'younger brohter.wav',
+      sound: 'youngerbrohter.wav',
       jpName: 'otōto',
       enName: 'younger brother',
       image: 'assets/images/family_members/family_younger_brother.png',
     ),
     ItemModel(
-      sound: 'younger sister.wav',
+      sound: 'youngersister.wav',
       jpName: 'Imōto',
       enName: 'younger sister',
       image: 'assets/images/family_members/family_younger_sister.png',

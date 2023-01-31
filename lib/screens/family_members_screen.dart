@@ -20,7 +20,7 @@ class FamilyMembersScreen extends StatelessWidget {
         ),
       ),
       body: ListView.builder(
-        itemBuilder: (context, index) => mainItem(enName: familyMembers[index].enName, jpName: familyMembers[index].jpName, sound: familyMembers[index].sound,image: familyMembers[index].image!, itemType: 'familyMembers'),
+        itemBuilder: (context, index) => mainItem(enName: familyMembers[index].enName, jpName: familyMembers[index].jpName, sound: familyMembers[index].sound,image: familyMembers[index].image!, itemType: 'family_members'),
         itemCount: familyMembers.length,
         shrinkWrap: true,
       ),

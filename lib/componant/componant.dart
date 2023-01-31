@@ -65,13 +65,13 @@ Widget mainItem({
                 flex: 1,
               ),
               IconButton(
-                onPressed: () async {
+                onPressed: () {
                   try {
-                    AudioPlayer player = AudioPlayer();
-                    await player
-                        .play(AssetSource(' assets/sounds/$itemType/$sound'));
-                  } catch (error) {
-                    print(error.toString());
+                    AudioCache player =
+                        AudioCache(prefix: 'assets/sounds/$itemType/');
+                    player.play(sound);
+                  } catch (ex) {
+                    print(ex);
                   }
                 },
                 icon: const Icon(Icons.play_arrow),
@@ -119,13 +119,13 @@ Widget PhrasesItem({
                 flex: 1,
               ),
               IconButton(
-                onPressed: () async {
+                onPressed: () {
                   try {
-                    AudioPlayer player = AudioPlayer();
-                    await player
-                        .play(AssetSource(' assets/sounds/$itemType/$sound'));
-                  } catch (error) {
-                    print(error.toString());
+                    AudioCache player =
+                        AudioCache(prefix: 'assets/sounds/$itemType/');
+                    player.play(sound);
+                  } catch (ex) {
+                    print(ex);
                   }
                 },
                 icon: const Icon(Icons.play_arrow),
