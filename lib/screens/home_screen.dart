@@ -39,7 +39,7 @@ class HomeScreen extends StatelessWidget {
                     MaterialPageRoute(
                         builder: (context) => const FamilyMembersScreen()),
                   );
-            }, text: 'family_members'),
+            }, text: 'Family Members'),
             mainButton(onPressed: () {
                Navigator.push(
                     context,
@@ -53,7 +53,7 @@ class HomeScreen extends StatelessWidget {
                     MaterialPageRoute(
                         builder: (context) => const PhrasesScreen()),
                   );
-            }, text: 'phrases'),
+            }, text: 'Phrases'),
           ],
         ),
       ),
